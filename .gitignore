@@ -41,3 +41,17 @@ CameraTrajectory.txt
 *.exe
 *.out
 *.app
+
+Examples/ROS/\.catkin_workspace
+
+Examples/ROS/devel/
+
+Examples/ROS/src/CMakeLists\.txt
+
+Examples/ROS/src/ORB_SLAM2_CUDA/Mono
+
+Examples/ROS/src/ORB_SLAM2_CUDA/RGBD
+
+Examples/ROS/src/ORB_SLAM2_CUDA/Stereo
+
+Examples/ROS/src/ORB_SLAM2_CUDA/Vocabulary/

@@ -29,17 +29,17 @@
 
 #include <mutex>
 
-#include "../../../include/Converter.h"
-#include "../../../include/MapPoint.h"
-#include "../../../include/FrameDrawer.h"
-#include "../../../include/MapDrawer.h"
-#include "../../../include/System.h"
+#include "../../../../include/Converter.h"
+#include "../../../../include/MapPoint.h"
+#include "../../../../include/FrameDrawer.h"
+#include "../../../../include/MapDrawer.h"
+#include "../../../../include/System.h"
 
 #define MAP_SCALE 1.0f
 
 #define FPS 30.0f
 
-#define KEYFRAME_TRAJECTORY_TUM_SAVE_FILE_DIR "/home/ubuntu/ORB_SLAM2_CUDA/test_results/Mono_KeyFrameTrajectory.txt"
+#define KEYFRAME_TRAJECTORY_TUM_SAVE_FILE_DIR "/home/user/ORB_SLAM2_CUDA/test_results/Mono_KeyFrameTrajectory.txt"
 
 namespace ORB_SLAM2
 {
