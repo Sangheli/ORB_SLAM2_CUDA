@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="vocabularty_path" default="$(find orb_slam2_cuda)../../../../Vocabulary/ORBvoc.txt" />
+    <arg name="camera_setting_path" default="$(find orb_slam2_cuda)/conf/SimCam.yaml" />
+    <!--<arg name="camera_setting_path" default="$(find orb_slam2_cuda)/conf/SimCamHD.yaml" />-->
+    <!--<arg name="camera_setting_path" default="$(find orb_slam2_cuda)/conf/SimCam640x480.yaml" />-->
+    <arg name="bUseViewer" default="true" />
+    <arg name="bEnablePublishROSTopic" default="true" />
+
+    <node name="orb_slam2_cuda" pkg="orb_slam2_cuda" type="Mono" output="screen"
+    	args="$(arg vocabularty_path) $(arg camera_setting_path) $(arg bUseViewer) $(arg bEnablePublishROSTopic)">
+  	</node>
+
+</launch>
