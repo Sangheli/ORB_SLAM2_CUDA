@@ -55,3 +55,5 @@ Examples/ROS/src/ORB_SLAM2_CUDA/RGBD
 Examples/ROS/src/ORB_SLAM2_CUDA/Stereo
 
 Examples/ROS/src/ORB_SLAM2_CUDA/Vocabulary/
+
+\.idea/

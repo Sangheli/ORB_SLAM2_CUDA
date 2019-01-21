@@ -96,7 +96,7 @@ int main(int argc, char **argv)
 
     ImageGrabber igb(&SLAM, &SLAMDATA);  
     
-    ros::Subscriber sub = nodeHandler.subscribe("/camera/image_raw", 1, &ImageGrabber::GrabImage,&igb);
+    ros::Subscriber sub = nodeHandler.subscribe("/usb_cam/rgb/image_raw", 1, &ImageGrabber::GrabImage,&igb);
 
     ros::spin();
 
